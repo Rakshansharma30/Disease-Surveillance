@@ -1,0 +1,155 @@
+/* General reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f9fc;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.primary-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin: 10px 0;
+}
+
+.primary-btn:hover {
+    background: #2980b9;
+}
+
+/* Form section */
+#symptomForm {
+    margin-top: 20px;
+}
+
+.symptom-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.symptom-input label {
+    flex: 1;
+    margin-right: 10px;
+    color: #34495e;
+    font-weight: bold;
+}
+
+.symptom-input select {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Loading indicator */
+.loading {
+    text-align: center;
+    font-size: 16px;
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* Result section */
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.prediction-result {
+    border: 1px solid #3498db;
+    background: #ecf6fd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.prediction-result h2 {
+    font-size: 20px;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+.prediction-result p {
+    font-size: 14px;
+    color: #2c3e50;
+    margin: 5px 0;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #e74c3c;
+    background: #fdeaea;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .primary-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .symptom-input {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .symptom-input label {
+        margin-bottom: 5px;
+    }
+
+    .symptom-input select {
+        width: 100%;
+    }
+}

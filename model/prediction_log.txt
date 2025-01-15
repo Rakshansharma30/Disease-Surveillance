@@ -1,0 +1,15 @@
+Date: 2024-11-14 Time: 01:13:59
+Symptoms and Severity: fever(2) vomiting(3) 
+Predicted Probability: 0.5
+Prediction: Dangerous
+
+Date: 2024-11-14 Time: 10:22:01
+Symptoms and Severity: vomiting(3) nausea(3) 
+Predicted Probability: 0.5
+Prediction: Dangerous
+
+Date: 2024-11-14 Time: 11:28:12
+Symptoms and Severity: fever(3) vomiting(3) 
+Predicted Probability: 0.5
+Prediction: Dangerous
+

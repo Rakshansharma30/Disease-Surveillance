@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Risk Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Disease Risk Prediction</h1>
+        <p class="description">
+            Input the severity of your symptoms to predict the risk level of a disease.
+        </p>
+
+        <!-- Button to start collecting symptoms -->
+        <button onclick="collectSymptoms()" class="primary-btn">Start</button>
+
+        <!-- Symptom form -->
+        <form id="symptomForm" style="display: none;" onsubmit="submitSymptoms(event)">
+            <div id="symptomInputs"></div>
+            <button type="submit" class="primary-btn">Predict Risk</button>
+        </form>
+
+        <!-- Result section -->
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
